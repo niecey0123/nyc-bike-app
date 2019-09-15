@@ -1,1 +1,1 @@
-web: bundle exec rails s -p 4567
+api: bundle exec rails s -p 4567
