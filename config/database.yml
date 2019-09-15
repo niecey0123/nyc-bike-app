@@ -86,6 +86,7 @@ test:
 #
 production:
   <<: *default
+  adapter: postgresql
   database: rails_products_api_production
-  username: rails_products_api
-  password: <%= ENV['RAILS_PRODUCTS_API_DATABASE_PASSWORD'] %>
+  # username: rails_products_api
+  # password: <%= ENV['RAILS_PRODUCTS_API_DATABASE_PASSWORD'] %>
