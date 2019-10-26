@@ -26,7 +26,7 @@ module RailsProductsApi
 
     config.middleware.use Rack::Cors do
       allow do
-        origins '*'
+        origins 'http://localhost:3000', ' https://bike-products-app.herokuapp.com/'
         resource '*', :headers => :any, :methods => [:get, :post, :put, :options, :delete], :credentials => false
       end
     end
