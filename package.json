@@ -1,0 +1,29 @@
+{
+  "name": "rails_products_api",
+  "version": "1.0.0",
+  "description": "This README would normally document whatever steps are necessary to get the application up and running.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "axios": "^0.19.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "cd client && npm install && npm run build && cd ..",
+    "deploy": "cp a client/build/ . public/",
+    "postinstall": "npm run build && npm run deploy && echo 'client built'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niecey0123/bike-rental-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niecey0123/bike-rental-app/issues"
+  },
+  "homepage": "https://github.com/niecey0123/bike-rental-app#readme"
+}
