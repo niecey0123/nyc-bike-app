@@ -4828,3 +4828,11 @@ Refer to `rails notes --help` for more information.
 DEPRECATION WARNING: This rake task is deprecated and will be removed in Rails 6.1. 
 Refer to `rails notes --help` for more information.
  (called from load at /Users/niecey/.rbenv/versions/2.6.3/bin/rake:23)
+Started GET "/products" for ::1 at 2019-10-27 17:15:03 -0400
+  [1m[35m (41.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:4:in `index'
+Completed 200 OK in 11ms (Views: 6.3ms | ActiveRecord: 3.4ms | Allocations: 6841)
+
+
