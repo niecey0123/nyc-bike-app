@@ -10,7 +10,7 @@ gem 'pg', '>= 0.18', '< 2.0', :group => :production
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 
-gem 'foreman', '~> 0.86.0'
+
 
 gem 'pry-rails', :group => :development
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -23,6 +23,7 @@ gem 'rack-cors'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'foreman', '~> 0.86.0'
 end
 
 group :development do
