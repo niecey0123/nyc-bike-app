@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "engines": {
-    "node": "11.15.1"
+    "node": "11.15.0"
   },
   "dependencies": {
     "axios": "^0.19.0"
