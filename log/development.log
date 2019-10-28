@@ -5020,3 +5020,11 @@ Processing by ProductsController#index as HTML
 Completed 200 OK in 11ms (Views: 6.5ms | ActiveRecord: 3.3ms | Allocations: 7754)
 
 
+Started GET "/products/4" for ::1 at 2019-10-28 11:15:20 -0400
+Processing by ProductsController#show as */*
+  Parameters: {"username"=>"theCakes", "password"=>"[FILTERED]", "id"=>"4"}
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/products_controller.rb:9:in `show'
+Completed 200 OK in 15ms (Views: 0.5ms | ActiveRecord: 0.8ms | Allocations: 5836)
+
+
