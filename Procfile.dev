@@ -1,2 +1,0 @@
-web: cd client && PORT=3000 npm start
-api: PORT=4567 && bundle exec rails s
