@@ -5219,3 +5219,10 @@ Processing by ProductsController#index as HTML
 Completed 200 OK in 86ms (Views: 3.6ms | ActiveRecord: 81.9ms | Allocations: 2699)
 
 
+Started GET "/products" for ::1 at 2019-10-30 07:40:54 -0400
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (40.9ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:4:in `index'
+Completed 200 OK in 56ms (Views: 13.4ms | ActiveRecord: 40.9ms | Allocations: 2684)
+
+
