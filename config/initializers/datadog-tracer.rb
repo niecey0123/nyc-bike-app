@@ -4,4 +4,3 @@ Datadog.configure do |c|
   end
 
   
-# Datadog.configure { |c| c.analytics_enabled = true }
