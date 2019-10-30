@@ -1,5 +1,6 @@
 Datadog.configure do |c|
-    c.use :rails, service_name: 'rails_products_api'
+    c.use :rails, service_name: 'rails_products_api',
+    c.analytics_enabled = true
   end
 
   
